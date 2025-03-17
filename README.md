@@ -23,10 +23,10 @@
 
 
 # Explanations for the variables in the dataset:
-##  gender:
+   gender:
   - Female: 1
   - Male: 2
-##  cat_age(categorical age):
+   cat_age(categorical age):
   - Those who are 40 years old or younger: 1
   - Those in the 41-50 age range: 2
   - Those in the 51-70 age range: 3
