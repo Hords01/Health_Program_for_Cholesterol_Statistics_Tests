@@ -22,18 +22,18 @@
  9.Test whether the health program has changed male patients weights.
 
 
-## Explanations for the variables in the dataset:
- ->gender:
-    Female: 1
-    Male: 2
-## ->cat_age(categorical age):
+# Explanations for the variables in the dataset:
+  gender:
+   Female: 1
+   Male: 2
+ ->cat_age(categorical age):
    Those who are 40 years old or younger: 1
    Those in the 41-50 age range: 2
    Those in the 51-70 age range: 3
    Those who are 71 years old or older: 4
- ->kg_before: The participants weights before the program.
- ->kg_after: The participants weights after the program.
- ->cho_init: The participants' cholesterol levels before the program.(initial)
- ->cho_3mo: The participants' cholesterol levels at the 3rd month of the program.
- ->cho_6mo: The participants' cholesterol levels at the end of the program.
- ->glucose: The participants' average glucose values throughout the program.
+ -kg_before: The participants weights before the program.
+ -kg_after: The participants weights after the program.
+ -cho_init: The participants' cholesterol levels before the program.(initial)
+ -cho_3mo: The participants' cholesterol levels at the 3rd month of the program.
+ -cho_6mo: The participants' cholesterol levels at the end of the program.
+ -glucose: The participants' average glucose values throughout the program.
