@@ -1,7 +1,7 @@
 # The Health Program for Cholesterol
--> This is a homework of basic statistical algorithms given by Asst. Prof. EDA OZKUL
--> The teacher of this class created this dataset
--> Contact information to EDA OZKUL https://avesis.ktu.edu.tr/edaozkul
+ - This is a homework of basic statistical algorithms given by Asst. Prof. EDA OZKUL
+ - The teacher of this class created this dataset
+ - Contact information to EDA OZKUL https://avesis.ktu.edu.tr/edaozkul
 
 ## Summary
  A researcher is organizing a health program for the treatment of cholesterol patients.
