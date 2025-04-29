@@ -1,41 +1,82 @@
-# The Health Program for Cholesterol
- - This is a homework of basic statistical algorithms given by Asst. Prof. EDA OZKUL
- - The teacher of this class created this dataset
- - Contact information to EDA OZKUL https://avesis.ktu.edu.tr/edaozkul
+# 🩺 Health Program for Cholesterol
 
-## Summary
- A researcher is organizing a health program for the treatment of cholesterol patients.
- Within the scope of the program, the researcher records the patients
- age, weight (before and after the program),
- cholesterol levels (before the program, at the 3rd month of the program, and after the program),
- and glucose levels (average throughout the program).
+This repository presents a statistical analysis project based on a dataset created by **Asst. Prof. Dr. Eda Özkul** as part of a coursework assignment on basic statistical algorithms.
 
-## Answer the questions listed below based on this information.(Take 𝛼 = 0.05.)
-- 1.Test whether the health program has changed cholesterol levels.
-- 2.Test whether there is a significant difference in glucose values by gender.
-- 3.Test whether the health program has changed the patients' weights.
-- 4.Test whether there is a significant difference in glucose values among patients based on age categories.
-- 5.Test whether there is a significant difference in the average ages of female and male patients.
-- 6.Test whether the health program has changed women's cholesterol levels.
-- 7.Test whether the health program has changed men's cholesterol levels.
-- 8.Test whether the health program has changed female patients weights.
-- 9.Test whether the health program has changed male patients weights.
+📌 Contact: [Eda Özkul – Karadeniz Technical University](https://avesis.ktu.edu.tr/edaozkul)
 
+---
 
-# Explanations for the variables in the dataset:
-##   gender:
-  - Female: 1
-  - Male: 2
-    
-##   cat_age(categorical age):
-  - Those who are 40 years old or younger: 1
-  - Those in the 41-50 age range: 2
-  - Those in the 51-70 age range: 3
-  - Those who are 71 years old or older: 4
-##  
- - kg_before: The participants weights before the program.
- - kg_after: The participants weights after the program.
- - cho_init: The participants' cholesterol levels before the program.(initial)
- - cho_3mo: The participants' cholesterol levels at the 3rd month of the program.
- - cho_6mo: The participants' cholesterol levels at the end of the program.
- - glucose: The participants' average glucose values throughout the program.
+## 📚 Project Summary
+
+A health program was designed for cholesterol patients to monitor the effectiveness of lifestyle changes over time. During the program, various metrics were recorded, including:
+
+- **Age**
+- **Weight** (before and after the program)
+- **Cholesterol levels** (initial, 3rd month, and after the program)
+- **Average glucose levels** (during the program)
+
+---
+
+## 🧪 Statistical Questions (α = 0.05)
+
+This study aims to answer the following questions using appropriate statistical hypothesis tests:
+
+1. Does the health program significantly change cholesterol levels?
+2. Is there a significant difference in glucose levels between genders?
+3. Does the health program significantly change participants' weight?
+4. Is there a significant difference in glucose levels across age groups?
+5. Is there a significant difference in the average ages of female and male patients?
+6. Does the program significantly change cholesterol levels for **women**?
+7. Does the program significantly change cholesterol levels for **men**?
+8. Does the program significantly change **women’s** weight?
+9. Does the program significantly change **men’s** weight?
+
+---
+
+## 🧾 Dataset Variable Descriptions
+
+### ➤ Categorical Variables
+
+- **`gender`**
+  - `1`: Female
+  - `2`: Male
+
+- **`cat_age`** (Categorical Age Group)
+  - `1`: ≤ 40 years
+  - `2`: 41–50 years
+  - `3`: 51–70 years
+  - `4`: ≥ 71 years
+
+### ➤ Numerical Variables
+
+- **`kg_before`**: Weight before the program (kg)  
+- **`kg_after`**: Weight after the program (kg)  
+- **`cho_init`**: Cholesterol level before the program  
+- **`cho_3mo`**: Cholesterol level at the 3rd month  
+- **`cho_6mo`**: Cholesterol level after the program  
+- **`glucose`**: Average glucose level during the program  
+
+---
+
+## 📌 Citation / Attribution
+
+If you use this repository, its code, or any part of it in your research, publication, or project, **please cite or give appropriate credit** as follows:
+
+### 🔹 Code & Methodology
+> **Emirkan Beyaz**, *"Health_Program_for_Cholesterol_Statistics_Tests"*, GitHub Repository,  
+> [https://github.com/Hords01/Health_Program_for_Cholesterol_Statistics_Tests](https://github.com/Hords01/Health_Program_for_Cholesterol_Statistics_Tests), 2025.  
+> Please cite this repository or mention the author when using or referencing the code.
+
+### 🔹 Dataset Attribution
+The dataset was created and provided by **Asst. Prof. Dr. Eda Özkul**.  
+> If you use or build upon this dataset, please acknowledge:  
+> **Eda Özkul**, *"Cholesterol Dataset"*,  
+> Karadeniz Technical University, Faculty of Science, Department of Statistics and Computer Science, 2025.
+
+---
+
+## 📬 Contact
+
+If you have any questions, issues, or suggestions, feel free to reach out via GitHub or through my profile.
+
+---
